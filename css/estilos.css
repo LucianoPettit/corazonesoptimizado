@@ -174,7 +174,7 @@ body {
   .heroContent {
     text-align: center;
     background-image: linear-gradient(390deg, #ffffff2a, rgba(0, 0, 0, 0.812)),
-      url("../img/test3.jpg");
+      url("../img/galeria/test3.JPG");
     width: 100%;
     max-width: auto;
     height: 90vh;
@@ -417,6 +417,13 @@ width: 100px;
 
 .card .front .imgCardBox {
   width: auto;
+  height: 35%;
+  margin: -15px;
+  transform: scale(2);
+  margin-top: 20px;
+}
+.card .front .imgCardBoxproxi {
+  width: 140px;
   height: 35%;
   margin: -15px;
   transform: scale(2);
