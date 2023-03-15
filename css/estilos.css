@@ -1558,129 +1558,6 @@ width: 100px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* medias y keyframes */
 @-webkit-keyframes giro {
   from {
@@ -1747,3 +1624,776 @@ width: 100px;
   }
 
 
+  /* medias ya programadas */
+
+
+  /* medias en general  */
+@media (max-width: 1520px) {
+  /* index */
+  .requisitos {
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .heroContent {
+    height: 80vh;
+  }
+
+  /* fin de index */
+  /* nosotros */
+  .porqueContainer p {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+  }
+  .containerP p {
+    width: 80%;
+  }
+  .imgNosotrosFixed {
+    height: 40vh;
+  }
+  /* fin de nosotros */
+  /* contacto*/
+  .imagenContacto{
+    height: 50vh;
+  }
+  /* fin de contacto*/
+  /* donar*/
+  /* fin de donar*/
+}
+
+@media (max-width: 1340px) {
+  .porqueContainer{
+    width: 90%;
+  }
+  .porqueContainer h2 {
+    font-size: 20px;
+  }
+  .porqueContainer ol li {
+    font-size: 15px;
+  }
+  .contenedorObjetivos{
+    margin-bottom: 100px;
+  }
+
+}
+
+@media (max-width: 1100px) {
+  /* index */
+  .heroContent {
+    height: 50vh;
+  }
+  .textCorazonesHero {
+    max-width: 60%;
+    max-height: 40%;
+  }
+  .prueba1 {
+    width: 60%;
+    min-width: 400px;
+  }
+
+  .title h2 {
+    font-size: 24px;
+    gap: 10px;
+  }
+  .title img {
+    gap: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  .title p {
+    width: 400px;
+    font-size: 18px;
+    color: black;
+    font-size: 15px;
+  }
+  .textCorazonesHero h2 {
+    font-size: 20px;
+  }
+  .textCorazonesHero p {
+    font-size: 14px;
+  }
+  .textCorazonesHero .lema {
+    font-size: 20px;
+  }
+  .heroContentBtn button {
+    background-color: white;
+    padding: 0px;
+    border: 2px solid white;
+    margin-top: 10px;
+    border-radius: 15%;
+    font-size: 15px;
+  }
+  .requisitosContainer {
+    flex-direction: column;
+  }
+  .requisitos {
+    width: 70%;
+  }
+  .requisitos h2 {
+    font-size: 20px;
+  }
+  .requisitos ul li {
+    font-size: 15px;
+  }
+  .apadrinaIndex img {
+    width: 300px;
+    height: 240px;
+  }
+  .titleLogo h2 {
+    font-size: 32px;
+  }
+  .parrafoApadrina p {
+    font-size: 15px;
+  }
+  .apadrinaContainerText {
+    width: 50%;
+    margin-top: 0px;
+  }
+  .Entidades h2 {
+    font-size: 20px;
+  }
+  .containerFooter {
+    width: 80%;
+  }
+  .containerFooter .sectionsFooter {
+    width: 33%;
+  }
+  .footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .sectionsFooter:nth-child(2) {
+    display: none;
+  }
+  .sectionsFooter {
+    margin-left: 2px;
+  }
+  .sectionsFooter .socialLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionsFooter h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedorObjetivos {
+    padding-bottom: 20px;
+  }
+    .counter-container {
+  padding-bottom: 80px;
+}
+  /* fin del index */
+  /* nosotros */
+  .contenedorObjetivos {
+    padding-bottom: 150px;
+  }
+  .textPorqueContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 80%
+  }
+  .textPorqueContainer h2 {
+    width: 60%;
+    font-size:15px;
+  }
+  .textPorqueContainer ol li {
+    width: ;
+    font-size:13px;
+  }
+  /* fin de nosotros */
+  /* contacto*/
+  .containerP div {
+    width: 70%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .equipoTextContainer h2{
+    font-size: 27px;
+  }
+  .mapsContainer {
+    width: 100%;
+   
+  }
+  /* fin de contacto*/
+  /* donar*/
+  .qrPasos img {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  .titleConetenedor {
+    height: 30vh;
+  }
+  /* fin de donar*/
+}
+@media (max-width: 900px) {
+  .navBackgroudColor{
+   margin-bottom: 20px;
+   padding-bottom: 0px;
+  }
+  .mapsContainer p {
+    font-size: 19px;
+    width: 90%;
+  }
+  .containerTitleContacto{
+    
+    width: 80%;
+  }
+
+  .mapsContainer h2{
+    font-size: 24px;
+  }
+
+  .formContacto p {
+    width: 80%;
+  }
+  .contactoMaps{
+    margin-top: 20px;
+  }
+
+  .alias{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 830px) {
+  /* index */
+  .carouselContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .prueba1 {
+    width: 70%;
+    min-width: 50%;
+  }
+  .title p {
+    width: 500px;
+    font-size: 18px;
+    color: black;
+    font-size: 15px;
+  }
+  .h2Proyectos {
+    font-size: 19px;
+  }
+  .requisitosContainer {
+    padding-top: 10px;
+  }
+  .infoText:nth-child(2) {
+    display: none;
+  }
+  .front h3 {
+    font-size: 14px;
+  }
+  .back h3 {
+    font-size: 20px;
+  }
+  .back p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .containerFooter {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .slider{
+    flex-direction: column;
+  }
+  /* fin del index */
+  /* nosotros */
+  .miembros .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .members {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comisionDirectiva {
+    border-bottom: 2px dotted black;
+  }
+  .vocalesTitulares {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+  }
+  .vocalesSuplentes {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+  }
+  .comisionCuentas {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedorObjetivos {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .objetivos {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+/* fin de nosotros */
+/* contacto*/
+.mapaSection .mapa iframe {
+  width: 600px;
+  margin-top: 40px;
+  height: 30vh;
+}
+/* fin de contacto*/
+/* donar*/
+/* fin de donar*/
+@media (max-width: 960px) {
+  .entidadesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .car
+}
+@media (max-width: 720px) {
+  /* index */
+{
+    height: 350px;
+  }
+  .prueba1 {
+    min-width: 500px;
+  }
+  .requisitos {
+    width: 90%;
+  }
+  /* fin del index */
+  /* nosotros */
+  .imgNosotrosFixed {
+    height: 30vh;
+  }
+  /* fin de nosotros */
+  /* contacto*/
+  .containerTitleContacto {
+    width: 90%;
+    border-radius: 30px 30px 0px 0px;
+    font-size: 20px;
+  }
+  .containerTitleContacto h2 {
+    font-size: 20px;
+  }
+  .mapsContainer h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .mapsContainer p {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  /* fin de contacto*/
+  /* donar*/
+  .cajaNaranjaDonacion {
+    width: 80%;
+  }
+  .titleConetenedor .cajaNaranjaDonacion h2 {
+    font-size: 20px;
+  }
+  .titleConetenedor .cajaNaranjaDonacion h4 {
+    font-size: 15px;
+  }
+
+  /* fin de donar*/
+}
+@media (max-width: 640px) {
+  /* index */
+  .apadrinaIndex {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .apadrinaContainerText {
+    width: 80%;
+  }
+  .apadrinaContainerText .titleLogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .parrafoApadrina {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  .parrafoApadrina p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+  }
+  .apadrinaContainerText .parrafoApadrina p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 238px;
+    color: black;
+    font-size: 14px;
+  }
+  .card {
+    height: 350px;
+  }
+  .containerFooter .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .row .sectionsFooter {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .formVoluntario form {
+    width: 400px;
+  }
+  .formVoluntario form h2 {
+    font-size: 15px;
+  }
+  .requisitos {
+    padding-left: 0px;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .title p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 10px;
+  }
+  .card {
+    height:340px;
+  }
+  .infoText:nth-child(1) {
+    display: none;
+  }
+  /* fin del index */
+  /* nosotros */
+  .miembrosTitle {
+    font-size: 30px;
+  }
+  .container h3 {
+    font-size: 20px;
+  }
+
+  .container {
+    width: 400px;
+  }
+  .porqueContainer {
+    width: 90%;
+    font-size: 13px;
+    border-radius: 90px 90px 0px 0px;
+  }
+  .porqueContainer h2 {
+    font-size: 19px;
+  }
+  .porqueContainer p {
+    width: 80%;
+  }
+  .equipoTextContainer h2 {
+    font-size: 25px;
+  }
+  .equipoTextContainer p {
+    font-size: 16px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .prueba2 {
+    width: 600px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    min-width: 400px;
+    height: 300px;
+  }
+  .containerP {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .textPorqueContainer h2 {
+    font-size: 19px;
+    font-weight: bold;
+    width: 90%;
+  }
+  /* fin de nosotros */
+  /* contacto*/
+  .mapaSection .mapa iframe {
+    width: 400px;
+    margin-top: 10px;
+    height: 300px;
+  }
+  .formContacto form {
+    width: 400px;
+  }
+  .redesLinkImgContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .redesLinkImgContainer img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .imagenContacto{
+    height: 40vh;
+  }
+  /* fin de contacto*/
+  /* donar*/
+  .linksContainer .contenerdor2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardslinks {
+    width: 325px;
+  }
+  
+  /* fin de donar*/
+  /* footer */
+  .sectionsFooter .socialLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  /* footer */
+}
+@media (max-width: 580px) {
+
+  .card {
+    height: 330px;
+  }
+  .back h3{
+    padding-top: 0px;
+    font-size: 19px;
+    }
+  .back p{
+    padding-top: 0px;
+    font-size: 13px;
+    }
+
+
+    .cardslinks h3 {
+      font-size: 15px;
+    }
+    .cardslinks p {
+      font-size: 12px;
+    }
+}
+
+@media (max-width: 550px) {
+  /* index */
+  .formVoluntario {
+    width: 400px;
+  }
+  .formVoluntario form {
+    width: 350px;
+  }
+  .prueba1 {
+    min-width: 350px;
+    height: 200px;
+  }
+
+  .textCorazonesHero {
+    width: 300px;
+    margin-top: 40px;
+    max-width: 100%;
+  }
+  .formVoluntario form {
+    width: 300px;
+  }
+  .formVoluntario {
+    width: 300px;
+  }
+  
+  #subTitleHidden {
+    display: none;
+  }
+  .apadrinaContainerText h2 {
+    font-size: 25px;
+  }
+  .Entidades h2 {
+    font-size: 15px;
+  }
+
+  .titlePresentacion p {
+  width: 300px;
+  font-size: 18px;
+  color: black;
+}
+.titlePresentacion h2 span {
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  font-size: 19px;
+}
+.titlePresentacion div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.titlePresentacion img {
+  width: 70px;
+}
+
+  /* fin del index */
+  /* nosotros */
+  .prueba2 {
+    width: 600px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    min-width: 400px;
+    height: 250px;
+  }
+  .member h2 {
+    font-size: 17px;
+  }
+  .member-role {
+    font-size: 15px;
+  }
+  .container {
+    width: 340px;
+  }
+  .prueba2 {
+    max-width: 240px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .nuestroEquipo .carousel {
+    width: 200px;
+  }
+  .textPorqueContainer h2 {
+    font-size: 17px;
+    font-weight: bold;
+    width: 90%;
+  }
+  /* fin de nosotros */
+  /* contacto*/
+  .formContacto form {
+    width: 330px;
+  }
+  .containerTitleContacto {
+    width: 90%;
+    border-radius: 30px 30px 0px 0px;
+    font-size: 20px;
+  }
+  .containerTitleContacto h2 {
+    font-size: 20px;
+  }
+  .mapsContainer h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .mapsContainer p {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  /* fin de contacto*/
+  /* donar*/
+  .qrPasos img {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .qrPasos h3 {
+    font-size: 15px;
+  }
+  .qrPasos .mercadoQr {
+    width: 250px;
+  }
+  .cajaNaranjaDonacion {
+    margin-top: 0px;
+  }
+  .contenedorObjetivos{
+    margin-top: 50px;
+  }
+  .objetivos {
+    margin-top:50px;
+    margin-bottom: 0px;
+  }
+  /* fin de donar*/
+}
+@media (max-width: 450px){
+  .mapaSection .mapa iframe {
+    width: 340px;
+    margin-top: 10px;
+    height: 300px;
+  }
+  .heroContent {
+    height: 70vh;
+    
+  }
+  .slider {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 400px) {
+  .prueba2 {
+ display: none
+  }
+
+}
+
+/* 
+
+  /* fin de medias en general  */
